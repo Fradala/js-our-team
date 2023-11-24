@@ -40,9 +40,9 @@ for (let i = 0; i < team.length; i ++){
 
     const teamCards = document.createElement('article');
     teamCards.innerHTML =
-    `<h1>${team.nome}</h1>
-    <p>${team.ruolo}</p>
-    <img src="${team.foto}" alt="descrizione foto"></img>`
+    `<h1>${persone.nome}</h1>
+    <p>${persone.ruolo}</p>
+    <img src="${persone.foto}" alt="descrizione foto"></img>`
 
     containerElement.appendChild(teamCards);
 
